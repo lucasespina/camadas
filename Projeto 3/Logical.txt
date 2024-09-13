@@ -1,0 +1,14 @@
+# Explicação geral do funcionamento e lógica
+# Leitura e Fragmentação da Imagem: O código começa lendo a imagem de um arquivo e a divide em pacotes de 51 bytes, respeitando o limite de 65 bytes por datagrama (incluindo o cabeçalho e o EOP).
+# Handshake: O cliente envia um pacote de handshake (tipo 1) para o servidor, informando o número total de pacotes que serão transmitidos. Ele então aguarda uma resposta do servidor.
+# Reenvio do Handshake: Se o cliente não receber uma resposta do servidor dentro de 10 segundos, ele tenta reenviar o handshake a cada 1 segundo.
+# Envio de Pacotes: Após receber a resposta ociosa (tipo 2), o cliente começa a enviar os pacotes, incluindo o número do pacote atual e o número total de pacotes no cabeçalho.
+# Validação e Controle de Erros: Se o cliente receber um ACK (tipo 4), ele envia o próximo pacote. Se houver algum erro no envio de um pacote (tipo 6), ele o reenviará.
+# Timeout e Finalização: O cliente encerra a conexão se ocorrer um timeout ou se o servidor enviar um pacote de finalização (tipo 255).
+# Embaralhamento: Um erro de embaralhamento de pacotes pode ser simulado enviando um pacote fora de ordem (com o número 7) quando o cliente está no pacote 20.
+
+#O código formata os pacotes com 51 bytes de payload para garantir que o tamanho total do datagrama não ultrapasse o limite de 65 bytes, conforme exigido pelo projeto. Um datagrama é composto por três partes principais: o cabeçalho, o payload (dados) e o EOP (End of Packet).
+#O cabeçalho tem 10 bytes e contém informações de controle como o número do pacote e o número total de pacotes. O EOP (marcador do fim do pacote) ocupa 4 bytes, representado por b'\xaa\xbb\xcc\xdd'. Com isso, restam 51 bytes para o payload, que é a parte dos dados que será enviada em cada pacote.
+#A soma das três partes (10 bytes de cabeçalho + 51 bytes de payload + 4 bytes de EOP) resulta em exatamente 65 bytes, que é o limite máximo permitido para o datagrama, garantindo que o código atenda à especificação de não ultrapassar esse tamanho máximo.
+
+

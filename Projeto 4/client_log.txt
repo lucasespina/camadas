@@ -1,0 +1,130 @@
+[TIMESTAMP] | [TIPO DE EVENTO] | [TIPO DE PACOTE] | [TAMANHO] | [PACOTE NÚMERO] | [CRC]
+2024-09-12 21:20:36.5 | INICIO | -    |    0 bytes
+2024-09-12 21:20:36.6 | ENVIO  | IMG  |   15 bytes | Pacote: ./imgs/img1.png
+2024-09-12 21:20:36.9 | ENVIO  | HND  |   14 bytes
+2024-09-12 21:20:37.1 | ENVIO  | DAT  |  154 bytes | Pacote: 0 | CRC: 0001
+2024-09-12 21:20:37.7 | ACK    | ACK  |   10 bytes | Pacote: 1
+2024-09-12 21:20:37.7 | ENVIO  | DAT  |  154 bytes | Pacote: 1 | CRC: 000e
+2024-09-12 21:20:38.4 | ACK    | ACK  |   10 bytes | Pacote: 2
+2024-09-12 21:20:38.5 | ENVIO  | DAT  |  154 bytes | Pacote: 2 | CRC: 0000
+2024-09-12 21:20:39.1 | ACK    | ACK  |   10 bytes | Pacote: 3
+2024-09-12 21:20:39.2 | ENVIO  | DAT  |  154 bytes | Pacote: 3 | CRC: 000b
+2024-09-12 21:20:39.8 | ACK    | ACK  |   10 bytes | Pacote: 4
+2024-09-12 21:20:39.9 | ENVIO  | DAT  |  154 bytes | Pacote: 4 | CRC: 000f
+2024-09-12 21:20:40.6 | ACK    | ACK  |   10 bytes | Pacote: 5
+2024-09-12 21:20:40.7 | ENVIO  | DAT  |  154 bytes | Pacote: 5 | CRC: 000a
+2024-09-12 21:20:41.2 | ACK    | ACK  |   10 bytes | Pacote: 6
+2024-09-12 21:20:41.3 | ENVIO  | DAT  |  154 bytes | Pacote: 6 | CRC: 0004
+2024-09-12 21:20:41.9 | ACK    | ACK  |   10 bytes | Pacote: 7
+2024-09-12 21:20:42.0 | ENVIO  | DAT  |  154 bytes | Pacote: 7 | CRC: 0006
+2024-09-12 21:20:42.4 | ACK    | ACK  |   10 bytes | Pacote: 8
+2024-09-12 21:20:42.5 | ENVIO  | DAT  |  154 bytes | Pacote: 8 | CRC: 0007
+2024-09-12 21:20:43.1 | ACK    | ACK  |   10 bytes | Pacote: 9
+2024-09-12 21:20:43.2 | ENVIO  | DAT  |  154 bytes | Pacote: 9 | CRC: 0002
+2024-09-12 21:20:43.8 | ACK    | ACK  |   10 bytes | Pacote: 10
+2024-09-12 21:20:43.9 | ENVIO  | DAT  |  154 bytes | Pacote: 10 | CRC: 000b
+2024-09-12 21:20:44.5 | ACK    | ACK  |   10 bytes | Pacote: 11
+2024-09-12 21:20:44.6 | ENVIO  | DAT  |  154 bytes | Pacote: 11 | CRC: 000d
+2024-09-12 21:20:45.1 | ACK    | ACK  |   10 bytes | Pacote: 12
+2024-09-12 21:20:45.1 | ENVIO  | DAT  |  154 bytes | Pacote: 12 | CRC: 0003
+2024-09-12 21:20:45.7 | ACK    | ACK  |   10 bytes | Pacote: 13
+2024-09-12 21:20:45.8 | ENVIO  | DAT  |  154 bytes | Pacote: 13 | CRC: 0006
+2024-09-12 21:20:46.4 | ACK    | ACK  |   10 bytes | Pacote: 14
+2024-09-12 21:20:46.5 | ENVIO  | DAT  |  154 bytes | Pacote: 14 | CRC: 000e
+2024-09-12 21:20:47.1 | ACK    | ACK  |   10 bytes | Pacote: 15
+2024-09-12 21:20:47.2 | ENVIO  | DAT  |  154 bytes | Pacote: 15 | CRC: 000b
+2024-09-12 21:20:47.7 | ACK    | ACK  |   10 bytes | Pacote: 16
+2024-09-12 21:20:47.8 | ENVIO  | DAT  |  154 bytes | Pacote: 16 | CRC: 0006
+2024-09-12 21:20:48.1 | ACK    | ACK  |   10 bytes | Pacote: 17
+2024-09-12 21:20:48.2 | ENVIO  | DAT  |  154 bytes | Pacote: 17 | CRC: 0000
+2024-09-12 21:20:48.7 | ACK    | ACK  |   10 bytes | Pacote: 18
+2024-09-12 21:20:48.8 | ENVIO  | DAT  |  154 bytes | Pacote: 18 | CRC: 0004
+2024-09-12 21:20:49.2 | ACK    | ACK  |   10 bytes | Pacote: 19
+2024-09-12 21:20:49.3 | ENVIO  | DAT  |  154 bytes | Pacote: 19 | CRC: 0000
+2024-09-12 21:20:49.7 | ACK    | ACK  |   10 bytes | Pacote: 20
+2024-09-12 21:20:49.8 | ENVIO  | DAT  |  154 bytes | Pacote: 20 | CRC: 000c
+2024-09-12 21:20:49.9 | EMB    | PAYLOAD |    0 bytes
+2024-09-12 21:20:50.4 | ERRO   | PKT  |   10 bytes | Pacote: 20
+2024-09-12 21:20:50.5 | ENVIO  | DAT  |  154 bytes | Pacote: 20 | CRC: 000c
+2024-09-12 21:20:51.1 | ACK    | ACK  |   10 bytes | Pacote: 21
+2024-09-12 21:20:51.2 | ENVIO  | DAT  |  154 bytes | Pacote: 21 | CRC: 000c
+2024-09-12 21:20:51.6 | ACK    | ACK  |   10 bytes | Pacote: 22
+2024-09-12 21:20:51.7 | ENVIO  | DAT  |  154 bytes | Pacote: 22 | CRC: 0007
+2024-09-12 21:20:52.3 | ACK    | ACK  |   10 bytes | Pacote: 23
+2024-09-12 21:20:52.3 | ENVIO  | DAT  |  154 bytes | Pacote: 23 | CRC: 000a
+2024-09-12 21:20:52.8 | ACK    | ACK  |   10 bytes | Pacote: 24
+2024-09-12 21:20:52.9 | ENVIO  | DAT  |  154 bytes | Pacote: 24 | CRC: 0004
+2024-09-12 21:20:53.5 | ACK    | ACK  |   10 bytes | Pacote: 25
+2024-09-12 21:20:53.6 | ENVIO  | DAT  |  154 bytes | Pacote: 25 | CRC: 0008
+2024-09-12 21:20:53.8 | EMB    | PACOTES |    0 bytes
+2024-09-12 21:20:54.3 | ERRO   | PKT  |   10 bytes | Pacote: 25
+2024-09-12 21:20:54.4 | ENVIO  | DAT  |  154 bytes | Pacote: 25 | CRC: 0008
+2024-09-12 21:20:55.0 | ACK    | ACK  |   10 bytes | Pacote: 26
+2024-09-12 21:20:55.1 | ENVIO  | DAT  |  154 bytes | Pacote: 26 | CRC: 0001
+2024-09-12 21:20:55.7 | ACK    | ACK  |   10 bytes | Pacote: 27
+2024-09-12 21:20:55.7 | ENVIO  | DAT  |  154 bytes | Pacote: 27 | CRC: 0002
+2024-09-12 21:20:56.4 | ACK    | ACK  |   10 bytes | Pacote: 28
+2024-09-12 21:20:56.5 | ENVIO  | DAT  |  154 bytes | Pacote: 28 | CRC: 000b
+2024-09-12 21:20:57.1 | ACK    | ACK  |   10 bytes | Pacote: 29
+2024-09-12 21:20:57.2 | ENVIO  | DAT  |  154 bytes | Pacote: 29 | CRC: 0009
+2024-09-12 21:20:57.7 | ACK    | ACK  |   10 bytes | Pacote: 30
+2024-09-12 21:20:57.8 | ENVIO  | DAT  |  154 bytes | Pacote: 30 | CRC: 000a
+2024-09-12 21:20:57.9 | EMB    | CRC  |    0 bytes
+2024-09-12 21:20:58.4 | ERRO   | PKT  |   10 bytes | Pacote: 30
+2024-09-12 21:20:58.5 | ENVIO  | DAT  |  154 bytes | Pacote: 30 | CRC: 000a
+2024-09-12 21:20:59.1 | ACK    | ACK  |   10 bytes | Pacote: 31
+2024-09-12 21:20:59.2 | ENVIO  | DAT  |  154 bytes | Pacote: 31 | CRC: 0003
+2024-09-12 21:20:59.7 | ACK    | ACK  |   10 bytes | Pacote: 32
+2024-09-12 21:20:59.8 | ENVIO  | DAT  |  154 bytes | Pacote: 32 | CRC: 000c
+2024-09-12 21:21:00.4 | ACK    | ACK  |   10 bytes | Pacote: 33
+2024-09-12 21:21:00.6 | ENVIO  | DAT  |  154 bytes | Pacote: 33 | CRC: 000c
+2024-09-12 21:21:01.3 | ACK    | ACK  |   10 bytes | Pacote: 34
+2024-09-12 21:21:01.5 | ENVIO  | DAT  |  154 bytes | Pacote: 34 | CRC: 0009
+2024-09-12 21:21:02.1 | ACK    | ACK  |   10 bytes | Pacote: 35
+2024-09-12 21:21:02.2 | ENVIO  | DAT  |  154 bytes | Pacote: 35 | CRC: 0002
+2024-09-12 21:21:02.7 | ACK    | ACK  |   10 bytes | Pacote: 36
+2024-09-12 21:21:02.8 | ENVIO  | DAT  |  154 bytes | Pacote: 36 | CRC: 0002
+2024-09-12 21:21:03.4 | ACK    | ACK  |   10 bytes | Pacote: 37
+2024-09-12 21:21:03.5 | ENVIO  | DAT  |  154 bytes | Pacote: 37 | CRC: 000b
+2024-09-12 21:21:04.0 | ACK    | ACK  |   10 bytes | Pacote: 38
+2024-09-12 21:21:04.1 | ENVIO  | DAT  |  154 bytes | Pacote: 38 | CRC: 0004
+2024-09-12 21:21:04.7 | ACK    | ACK  |   10 bytes | Pacote: 39
+2024-09-12 21:21:04.8 | ENVIO  | DAT  |  154 bytes | Pacote: 39 | CRC: 000f
+2024-09-12 21:21:05.4 | ACK    | ACK  |   10 bytes | Pacote: 40
+2024-09-12 21:21:05.5 | ENVIO  | DAT  |  154 bytes | Pacote: 40 | CRC: 0001
+2024-09-12 21:21:05.9 | ACK    | ACK  |   10 bytes | Pacote: 41
+2024-09-12 21:21:06.0 | ENVIO  | DAT  |  154 bytes | Pacote: 41 | CRC: 0008
+2024-09-12 21:21:06.7 | ACK    | ACK  |   10 bytes | Pacote: 42
+2024-09-12 21:21:06.8 | ENVIO  | DAT  |  154 bytes | Pacote: 42 | CRC: 0009
+2024-09-12 21:21:07.3 | ACK    | ACK  |   10 bytes | Pacote: 43
+2024-09-12 21:21:07.4 | ENVIO  | DAT  |  154 bytes | Pacote: 43 | CRC: 0006
+2024-09-12 21:21:08.0 | ACK    | ACK  |   10 bytes | Pacote: 44
+2024-09-12 21:21:08.1 | ENVIO  | DAT  |  154 bytes | Pacote: 44 | CRC: 0005
+2024-09-12 21:21:08.6 | ACK    | ACK  |   10 bytes | Pacote: 45
+2024-09-12 21:21:08.7 | ENVIO  | DAT  |  154 bytes | Pacote: 45 | CRC: 0008
+2024-09-12 21:21:09.3 | ACK    | ACK  |   10 bytes | Pacote: 46
+2024-09-12 21:21:09.4 | ENVIO  | DAT  |  154 bytes | Pacote: 46 | CRC: 000b
+2024-09-12 21:21:09.9 | ACK    | ACK  |   10 bytes | Pacote: 47
+2024-09-12 21:21:09.9 | ENVIO  | DAT  |  154 bytes | Pacote: 47 | CRC: 000a
+2024-09-12 21:21:10.5 | ACK    | ACK  |   10 bytes | Pacote: 48
+2024-09-12 21:21:10.6 | ENVIO  | DAT  |  154 bytes | Pacote: 48 | CRC: 0000
+2024-09-12 21:21:11.1 | ACK    | ACK  |   10 bytes | Pacote: 49
+2024-09-12 21:21:11.2 | ENVIO  | DAT  |  154 bytes | Pacote: 49 | CRC: 000d
+2024-09-12 21:21:11.8 | ACK    | ACK  |   10 bytes | Pacote: 50
+2024-09-12 21:21:12.0 | ENVIO  | DAT  |  154 bytes | Pacote: 50 | CRC: 0001
+2024-09-12 21:21:12.5 | ACK    | ACK  |   10 bytes | Pacote: 51
+2024-09-12 21:21:12.6 | ENVIO  | DAT  |  154 bytes | Pacote: 51 | CRC: 0008
+2024-09-12 21:21:13.1 | ACK    | ACK  |   10 bytes | Pacote: 52
+2024-09-12 21:21:13.2 | ENVIO  | DAT  |  154 bytes | Pacote: 52 | CRC: 000d
+2024-09-12 21:21:13.8 | ACK    | ACK  |   10 bytes | Pacote: 53
+2024-09-12 21:21:13.9 | ENVIO  | DAT  |  154 bytes | Pacote: 53 | CRC: 0009
+2024-09-12 21:21:14.6 | ACK    | ACK  |   10 bytes | Pacote: 54
+2024-09-12 21:21:14.7 | ENVIO  | DAT  |  154 bytes | Pacote: 54 | CRC: 0009
+2024-09-12 21:21:15.3 | ACK    | ACK  |   10 bytes | Pacote: 55
+2024-09-12 21:21:15.4 | ENVIO  | DAT  |  154 bytes | Pacote: 55 | CRC: 0004
+2024-09-12 21:21:15.9 | ACK    | ACK  |   10 bytes | Pacote: 56
+2024-09-12 21:21:16.0 | ENVIO  | DAT  |  154 bytes | Pacote: 56 | CRC: 000b
+2024-09-12 21:21:16.4 | ACK    | ACK  |   10 bytes | Pacote: 57
+2024-09-12 21:21:16.5 | ENVIO  | DAT  |  151 bytes | Pacote: 57 | CRC: 0007
+2024-09-12 21:21:16.9 | ACK    | ACK  |   10 bytes | Pacote: 58
+2024-09-12 21:21:17.0 | ENVIO  | IMG  |  151 bytes
